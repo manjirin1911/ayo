@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "15daffb7-9f35-496f-984e-537f47737371",
+		"name": "aYo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/converter/celsiusToFahrenheit/105",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/converter/celsius-to-fahrenheit/105",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"celsius-to-fahrenheit",
+						"105"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/converter/kiloToMiles/4.2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/converter/kilo-to-miles/4.2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"kilo-to-miles",
+						"4.2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/converter/meters-to-feet/15",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/converter/meters-to-feet/15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"meters-to-feet",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/converter/centimeters-to-inches/220",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/converter/centimeters-to-inches/220",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"centimeters-to-inches",
+						"220"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/converter/liters-to-gallons/22",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/converter/liters-to-gallons/22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"converter",
+						"liters-to-gallons",
+						"22"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

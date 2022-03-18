@@ -1,0 +1,4 @@
+FROM anapsix/alpine-java
+COPY target/demo-0.0.1-SNAPSHOT /home/demo-0.0.1-SNAPSHOT
+CMD ["java","-jar","/home/demo-0.0.1-SNAPSHOT"]
+EXPOSE 8888
